@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test automation regression suite" verbose="3">
+
+	<test name="Login Test">
+		<classes>
+			<class name="MyTests.LoginTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Home Test">
+		<classes>
+			<class name="MyTests.HomeTest" />
+		</classes>
+	</test>
+
+	<test name="Search Test">
+		<classes>
+			<class name="MyTests.SearchTest" />
+		</classes>
+	</test>
+
+</suite>
